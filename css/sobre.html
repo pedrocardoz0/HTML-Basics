@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sobre</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			
+			.cont1{
+				 border: 1px solid red;
+				 background: green;
+				 width: 200px;
+				 height: 200px;
+				 position: absolute;
+				 z-index: 2; /*Order of divs, if the number is the biggest one, the content that recieves the highst one will be the first one*/
+			}
+
+			.cont2{
+				border: 1px solid red;
+				background: orange;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 80px;
+				left: 80px;
+				z-index: 1;
+			}
+
+			.cont3{
+				border: 1px solid red;
+				background: blue;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 180px;
+				left: 180px;
+				z-index: 0;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="cont1">
+			Cont 1
+		</div>
+
+		<div class="cont2">
+			Cont 2
+		</div>
+
+		<div class="cont3">
+			Cont 3
+		</div>
+
+
+	</body>
+</html>

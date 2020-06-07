@@ -1,0 +1,40 @@
+/*Inhiri
+*{
+	border: 1px solid red;
+}
+
+body{
+	color: red;
+	border: 1px solid blue;
+	background: gray;
+}
+*/
+
+/*Specificity
+
+#page p{
+	color: blue !important;
+
+}
+
+#page p{
+	color: red;
+}*/
+
+/*More Specific*/
+
+*{
+	color: red;
+}
+
+h1{
+	color: blue;
+}
+
+h1.green {
+	color: green;
+}
+
+h1#yellow{
+	color: yellow;
+}

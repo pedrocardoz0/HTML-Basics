@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Média</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<script type="text/javascript">
+			
+			var media = 6
+
+			var aluno = prompt("Informe seu nome:")
+
+			var nota1 = parseFloat(prompt('Informe a nota 1:'))
+			var nota2 = parseFloat(prompt('Informe a nota 2:'))
+
+			media_aluno = (nota1 + nota2) / 2
+
+			console.log(typeof nota1)
+
+			if(media_aluno >= 6) {
+				document.write('O aluno ' + aluno + ' foi aprovado com media ' + media_aluno)
+			} else {
+				document.write('O aluno ' + aluno + ' foi reprovado com media ' + media_aluno)
+			}
+
+		</script>
+
+	</body>
+</html>

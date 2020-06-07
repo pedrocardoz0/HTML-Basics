@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Parameter and Varibles</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h2>Parameter and Varible</h2>
+
+    <script type="text/javascript">
+
+        function exem() {
+            var result = 0
+            for(var x in arguments) {
+
+                result += arguments[x]
+                console.log(arguments[x])
+                
+            }
+            document.write(result)
+        }
+
+        exem(1, 2, 34, 5, 99)
+    </script>
+
+</body>

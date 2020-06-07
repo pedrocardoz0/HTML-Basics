@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    background-color: #248bcc;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#header {
+    text-align: center;
+    border-radius: 0 0 40px 40px;
+    height: 100px;
+    background-color: #0e153a;
+    width: 100%;
+    flex: 1;
+}
+
+#header h1 {
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+    align-self: flex-start;
+    background-color:  #FFF;
+    padding: 10px;
+    position: relative;
+    margin: 20px;
+    width: 100%;    
+}

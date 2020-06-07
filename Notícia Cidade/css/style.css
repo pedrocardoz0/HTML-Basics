@@ -1,0 +1,164 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: url(../img/fundo.png) repeat-x top;
+}
+
+ul#nav li{
+	padding-top: 15px;
+	list-style: none;
+	float: left;
+}
+
+ul#nav li a{
+	background: url('../img/divisor.png') repeat-y;
+	font-family: 'Trebuchet Ms', 'Helvetica', sans-serif;
+	text-decoration: none;
+	background-color: #e10037;
+	color: white;
+	padding: 10px 20px;
+}
+
+ul#nav li a:hover{
+	background: #b1002e;
+	color: #940011;
+}
+
+
+.container{
+	padding-left: 320px;
+	border: 1px solid blue;
+}
+
+
+#content{
+	width: 900px;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+.det1{
+	float: right;
+}
+
+.det2{
+	padding-top: 30px;
+	float: left;
+}
+
+.head{
+	padding-bottom: 38px;
+}
+
+#main-left-side{
+	border: 1px solid red;
+	width: 184px;
+	padding-top: 40px;
+	clear: both;
+}
+
+.name-cont{
+
+	font-weight: bold;
+	color: white;
+	background: #294970;
+	padding: 2px;
+}
+
+
+.left-side ul{
+	padding: 0px;
+	margin: 10px;
+}
+
+.left-side ul li{
+	padding: 12px 5px 15px 5px;
+	background: white;
+	list-style: none;
+	text-align: left;
+}
+
+
+.left-side{
+	padding: 4px 8px;
+	background: url(../img/fundo-caixa.png);
+}
+
+.clear{
+	clear: both;
+}
+
+#mail {
+	background: white;
+
+}
+
+#mail input{
+	padding: 2px 2px;
+}
+
+#mail a{
+	background: #b40031; 
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px;
+	padding: 5px 15px;
+	color: white;
+}
+
+#news-container{
+	width: 600px;
+	top: 260px;
+	left: 550px;
+	position: absolute;
+	border: 1px solid red;
+}
+
+.content-news{
+	padding: 10px;
+	margin: 10px;
+	background: url(../img/fundo-caixa.png);
+	border: 1px solid red;
+	width: 40%;
+	display: block;
+	float: left;
+}
+
+.white-box{
+	padding: 10px;
+	background: white;
+}
+
+.white-box img{
+	width: 100%;
+}
+
+.white-box ul{
+	padding: 0px;
+}
+
+.white-box ul li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border:1px solid red;
+}
+
+.white-box ul li div{
+	width: 93%;
+}
+
+.white-box ul li div img{
+	float: left;
+	width: 50%;
+	padding-right: 10px;
+}
+
+.white-box ul li div h4{
+	margin: 0;
+}
+
+.white-box ul li div p{
+	margin: 0;
+}
+

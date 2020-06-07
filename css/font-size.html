@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Font Size</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			div{
+				font-size: 60px;
+			}
+
+			.text {
+
+				/*
+				px -> fix size
+				% -> relative
+				em -> relative
+				*/
+				font-size: 2em;/*his value is 1 from the father cotain*/
+			}
+
+			.text2{
+				font-size: 1em;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div> <!-- Father -->
+
+			<p class="text"> <!-- Son -->
+				1 Something
+			</p>
+
+			<p class="text2">
+				2 Something
+			</p>
+
+		</div>
+
+	</body>
+</html>

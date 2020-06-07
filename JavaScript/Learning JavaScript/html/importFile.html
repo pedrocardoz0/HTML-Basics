@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Import Modules</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>test</h2>
+        <script type="module" src="../importFile.js"></script>
+
+        <script>
+            const carrinho = [
+                '{"nome":"borracha", "preço": "3.45"}',
+                '{"nome":"caderno", "preço": "13.90"}',
+                '{"nome":"kit de lapis", "preço": "41.22"}',
+                '{"nome":"caneta", "preço": "7.50"}',
+            ]
+
+            let result = carrinho.map((p) => JSON.parse(p))
+            result.map((p) => console.log(p.preço))
+        </script>
+    </body>
+</html>

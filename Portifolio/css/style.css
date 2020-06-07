@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	margin: 0;
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+}
+
+/*Navegation*/
+
+#nav {
+	position: relative;
+	margin: 30px;
+	line-height: 40px;
+	height: 40px;
+}
+
+#logo {
+	text-transform: uppercase;
+	font-family: "LATO", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+}
+
+#menu {
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 0;
+	font-family: "LATO", sans-serif;
+	font-weight: bold;
+	float: left;
+}
+
+#menu span {
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+#menu span a {
+	padding: 5px 10px;
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+}
+
+#menu span a:hover {
+	color: #FFF;
+	background: #000;
+}
+
+/*Photos*/
+
+.princ {
+	background: url(../img/walp.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 80%;
+}
+
+.princ span, p{
+	padding: 10px;
+	margin-top: 5%;
+	margin-left: 10%;
+	display: inline-block;
+	background: black;
+	color: #FFF;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+}
+
+.princ p {
+	font-size: 25px;
+	margin-right: 5%;
+	float: right;
+	width: 35%;
+	background: white;
+	color: #000;
+}
+
+.line {
+	border-bottom: 2px solid white;
+	padding-top: 10px;
+}
+
+
+
+/*End*/
+
+#rodape {
+	font-size: 20px;	
+	font-weight: 900;
+	font-family: Lato, sans-serif;
+	padding: 20px;
+	text-align: center;
+}

@@ -1,0 +1,16 @@
+header {
+	border: 1px solid red;
+	padding: 10px;
+}
+
+article {
+	background: orange;
+}
+
+section {
+	border: 1px dotted white;
+}
+
+aside {
+	background: blue;
+}

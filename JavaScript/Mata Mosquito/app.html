@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Kill the bug</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="game.js"></script>
+    </head>
+    <body onresize="altTamlar()">
+
+        <div class="painel">
+            <div class="vidas">
+                <img src="img/coracao_vazio.png">
+                <img src="img/coracao_cheio.png">
+                <img src="img/coracao_cheio.png">
+
+
+            </div>
+            <div class="cronometro">Temp ?</div>
+        </div>
+
+        <script>
+            setInterval(function(){
+                radomPos()
+            }, 1000)
+        </script>
+
+    </body>
+</html>

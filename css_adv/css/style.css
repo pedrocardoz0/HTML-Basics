@@ -1,0 +1,55 @@
+/*Universal Selector
+
+*{
+	border: 1px solid red;
+}
+*/
+
+/*Type Selector
+
+h1 {
+	color: red;
+}
+*/
+
+/*Class Selector
+
+.green{
+	color: green;
+}
+
+p.blue{
+	color: blue;
+}
+*/
+
+/* Id selector
+#valor{
+	background: blue;
+}
+*/
+
+/*Son Selector, will select just the left that is son of the left
+Need to be direct son
+*/
+li>a{
+	color: green;	
+	text-decoration: none;
+}
+
+/*Descendt Selector
+p a {
+	color: pink;
+}
+*/
+
+/*Adjact Brother*/
+
+h1+p{
+	color: red;
+}
+
+/*Geral brothes*/
+h3~p{
+	color: gray;
+}

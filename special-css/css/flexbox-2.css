@@ -1,0 +1,80 @@
+#conteudo {
+	background: #dcdcdc;
+	display: flex;
+	height: 600px;
+	/*Flex Property
+	row / row-reverse/ column-reverse
+	*/
+	flex-direction: row;
+
+
+	/*Flex Wrep
+	nowrap / wrap / wrap-reverse
+		flex-wrap: nowrap;
+
+	/*Justify Content
+	flex-start / flex-end / center / space-between / space-around
+		justify-content: space-around;
+
+	/*Align Items
+	strech / center / flex-start / flex-end / baseline
+		align-items: baseline;
+	*/
+}
+
+.item {
+	/*width: 200px;*/
+	height: 100px;
+	background: white;
+	border: 1px solid gray;
+	margin: 10px;
+
+	/*Flex grow, how much this content will grow*/
+	flex-grow: 1;
+
+	/*Flex Shrink, how much this content will reduce*/
+	flex-shrink: 1;
+
+	/*Flex Basis*/
+	flex-basis: 200px;
+
+}
+
+.item1 {
+	/*flex-grow: 1;*/
+	flex-shrink: 1;
+}
+
+.item2 {
+	flex-grow: 1;
+	flex-shrink: 2;
+}
+
+.item3 {
+	/*flex-grow: 3;*/
+	flex-shrink: 5;
+}
+
+.item4 {
+	/*flex-grow: 2;*/
+	flex-shrink: 1;
+}
+
+/*
+.ordem1 {
+	order: 1;
+}
+
+.ordem2 {
+	order: 2;
+}
+
+.ordem3 {
+	order: 3;
+}
+
+.ordem4 {
+	order: 4;
+}
+
+*/

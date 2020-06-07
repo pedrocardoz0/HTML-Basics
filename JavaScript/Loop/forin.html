@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>For In</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+        <h2>For In</h2>
+
+		<script type="text/javascript">
+
+            /*
+            All the value were taken based on their respectivly index
+            */
+
+            var arrayTest =  new Array()
+
+            arrayTest["A"] = "Pedro"
+            arrayTest[1] = "Kha"
+            arrayTest[3] = "Leau"
+            arrayTest[true] = "Loe"
+            arrayTest["XXXX"] = "Utheyr"
+
+            for (var x in arrayTest) {
+                document.write(arrayTest[x] + "<br>")
+            }
+		</script>
+
+	</body>
+</html>

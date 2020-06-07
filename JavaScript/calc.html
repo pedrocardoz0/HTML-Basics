@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<script type="text/javascript">
+
+			var soma = function(a, b) {
+				return a + b
+			}
+			
+			var sub = function(a, b) {
+				return a - b
+			}
+
+			function home(soma, sub) {
+
+				var choice = prompt("Informe a operação que deseja (Soma) ou (Subtração):")
+				var a = parseFloat(prompt("Informe o valor de A:"))
+				var b = parseFloat(prompt("Informe o valor de B:"))
+
+				if (choice.toLowerCase() == 'soma'){
+					document.write("Resultado: " + soma(a, b))
+				} else if (choice.toLowerCase() == 'subtração') {
+					document.write("Resultado: " + sub(a, b))
+				} else {
+					document.write("Not valid !!")
+				}
+
+			}
+
+			home(soma, sub)
+		
+		</script>
+
+	</body>
+</html>

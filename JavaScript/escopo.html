@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Escopo de variaveis</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<script type="text/javascript">
+			var ser = 10 // Escopo Global
+
+			if (true) {
+				var block = 999 /*At the point the statment block IF stay inside the global escope, the varible block suffer an elevation, and it get started to bee an global escope varible*/
+				document.write(ser)
+			}
+
+			document.write("<br>" + block)
+
+			function x() {
+				var serie = 'WWW'
+				document.write("<br>" + ser)
+			}
+			x()
+
+			document.write(serie)
+
+		</script>
+
+	</body>
+</html>

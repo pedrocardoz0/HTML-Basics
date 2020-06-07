@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Event Mouse</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<div onmouseout="actionBye()" onclick="actionHi()" style="background: #CCC; width: 100px; height: 100px;"></div>
+
+		<!--
+		onclick() >> Just one click
+		ondblclick() >> Two clicks
+
+		onmouseup() >> When the click is lefted
+		onmouseover() >> When its hover
+		onmouseout() >> When the mouse is not any more at the element
+		-->
+
+		<script type="text/javascript">
+			
+			function actionHi() {
+				alert("Hi")
+			}
+
+			function actionBye() {
+				alert("Bye")
+			}
+		</script>
+
+	</body>
+</html>

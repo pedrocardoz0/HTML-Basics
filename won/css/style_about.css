@@ -1,0 +1,120 @@
+/*About*/
+
+body{
+	padding: 0;
+	margin:0;
+	
+}
+
+.coluns{
+	position: absolute;
+	height: 100%;
+	width: 390px;
+	background: url(../files/about_co.png);
+}
+
+.span_t{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	color: #FFF;
+	z-index: 0;
+}
+
+.image{
+	width: 420px;
+	position: absolute;
+	left: 390px;
+	background: url(../files/wonmi1.jpg);
+}
+
+#name {
+	background: #FFF;
+	padding:10px 20px;
+	opacity: 0.5
+	color: black;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+  	font-family: "MONTSERRAT", serif;
+	font-size: 50px;
+	z-index: 0;
+}
+
+/*Buttons*/
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#buttons{
+	float: left;
+	position: absolute;
+	top: 2%;
+	left: 65%;
+
+}
+
+.custom-btn {
+  margin:20px;
+  padding: 15px 30px;
+  font-family: "MONTSERRAT", sans-serif;
+  font-weight: bold;
+  background: #FFF;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-12 {
+  border: 2px solid #000;
+  z-index: 1;
+}
+.btn-12:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #000 !important;
+  transition: all 0.3s ease;
+}
+.btn-12:hover {
+  color: #fff !important;
+}
+.btn-12:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn-12:active {
+  top: 2px;
+}
+
+/*About style*/
+
+.content {
+	width: 590px;
+	position: relative;
+	top: 240px;
+	left: -60px;
+	float: right;
+}
+
+
+.name_content{
+	font-family: MONTSERRAT, sans-serif;
+	font-size: 36px;
+}
+
+.about_content{
+	padding-left: 30px;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: left;
+	color: #000;
+}

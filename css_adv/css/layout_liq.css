@@ -1,0 +1,70 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	min-width: 720px;
+	max-width: 1000px;
+	width: 960px;
+	margin: 0 auto;
+	background: #FFF url(../require/coluna.png) repeat-y;
+}
+
+/*
+#img{
+	width: 90%;
+	overflow: hidden;
+}
+*/
+
+img.img-news{
+	width: 90%;
+	padding: 2%;
+	max-width: 600px;
+
+}
+
+#mark{
+	height: 200px;
+	background: #9E9E9E url('../require/cabecalho2.jpg') no-repeat center;
+	text-align: center;
+	line-height: 200px;
+}
+
+#content{
+	width: 75%;
+	float: right;
+}
+
+#nav{
+	width: 23%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav li a {
+	text-decoration: none;
+}
+
+#rod{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+
+#cont-princ {
+	width: 64%;
+	float: left;
+}
+
+#cont-sec {
+	width: 35%;
+	float: right;
+	background: #d1d1d1;
+}

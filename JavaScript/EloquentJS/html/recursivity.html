@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Recursivity</title>
+        <meta charset="UTF-8">
+
+        <script type="text/javascript">
+
+            const calc_factorial = function(x) {
+                if (x == 1){
+                    return 1
+                } else {
+                    return x * calc_factorial(x - 1)
+                }
+            }
+
+            console.log(calc_factorial(5))
+            /*
+            5 * calc_factorial(5 - 1) --> 4 * calc_factorial( 4 - 1) --> 3 * calc_factorial( 3 - 1) -->
+            
+            2 * calc_factorial( 2 - 1 ) --> x vale 1 if (x==1){return 1}
+
+            So we could conclude that, at the final we return and the value is one
+            is throw to the functions calc_factorial(2 - 1) the return 1
+            */
+        </script>
+    </head>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Var and Let</title>
+        <meta charset="UTF-8">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+        <script type="text/javascript"> 
+
+            var val = "LOL"
+            console.log(val)
+
+            function x() {
+
+                var funct = "Ola"
+                console.log(val)
+                console.log(funct)
+                if(true){
+                    var another = 'Hi'
+                    console.log(funct)
+                    console.log(val)
+                    console.log(another)
+                }
+                console.log(another)
+            }
+            //console.log(funct) Not working because its function escope
+            x()
+            /*
+            If you decide to use let it will preserve the actual escope
+            */
+
+            var series = 'Athom'
+
+            {
+                var series = 'Themos' // It will suffre the hoisting, it occures with var when aplied at block scope
+                console.log(series)
+            }
+
+            console.log(series)
+        
+            /*Using let*/
+            let ant = "Jhoss"
+
+            {
+                let ant = "Sheje"
+                console.log(ant)
+            }
+            console.log(ant)
+
+        </script>
+    </head>
+    <body>
+
+
+    </body>
+</html>

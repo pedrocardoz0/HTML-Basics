@@ -1,0 +1,68 @@
+body{
+	background: black url(../files/index.jpg) no-repeat;
+	background-size: 100%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#name {
+	background: #FFF;
+	padding:10px 20px;
+	opacity: 0.5
+	color: black;
+	position: absolute;
+	top: 4%;
+	left: 3%;
+  	font-family: "MONTSERRAT", serif;
+	font-size: 50px;
+}
+
+#buttons{
+	float: left;
+	position: absolute;
+	top: 6%;
+	left: 60%;
+
+}
+
+.custom-btn {
+  margin:20px;
+  padding: 15px 30px;
+  font-family: "MONTSERRAT", sans-serif;
+  font-weight: bold;
+  background: #FFF;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-12 {
+  border: 2px solid #000;
+  z-index: 1;
+}
+.btn-12:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #000 !important;
+  transition: all 0.3s ease;
+}
+.btn-12:hover {
+  color: #fff !important;
+}
+.btn-12:hover:after {
+  top: 0;
+  height: 100%;
+}
+.btn-12:active {
+  top: 2px;
+}

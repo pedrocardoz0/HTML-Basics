@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Question</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+        <h2>Question</h2>
+        
+        <input type="text" id="input" onkeydown="search()">
+        <button type="button" onclick="check()" id="add">Adicionar</button>
+        <button type="button" onclick="org()" id="ord">Ordenar</button>
+
+        <script type="text/javascript">  
+
+            var arraySt = new Array()          
+
+            function search() {
+                
+                if(event.keyCode == 13){
+                    check()
+                }
+            }
+
+            function check() {                
+                var stringIpu = document.getElementById("input").value
+                
+                if (stringIpu === ""){
+                    alert("Informe um valor válido")
+                } else {
+                    if(arraySt.indexOf(stringIpu) != -1) {
+                        alert("Objeto já existe")
+                    } else {
+                        arraySt.push(stringIpu)
+                    }
+
+                    document.getElementById("input").value = ""
+                }        
+            }
+
+            function org(){
+                arraySt.sort()
+            }
+        </script>
+    </body>
+</html>

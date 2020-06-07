@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Input Manipulation</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<input type="text"
+		name=""
+		placeholder="Insert Something"
+		onkeyup="distrib()"
+		id="entrada"
+		><br>
+
+
+		<hr>
+		<span>Letras:</span>
+		<input type="text" name="" disabled="disabled" id="letra">
+		<span>Numero:</span>
+		<input type="text" name="" disabled="disabled" id="numero">
+
+		<script type="text/javascript">
+			
+			function distrib(){
+				var char = document.getElementById('entrada').value
+				document.getElementById('entrada').value = ''
+				
+				console.log(char)
+
+				char.trim()
+
+				switch(char) {
+
+					case '0':
+
+					case '1':
+					case '2':
+					case '3':
+					case '4':
+					case '5':
+					case '6':
+					case '7':
+					case '8':
+					case '9':
+						document.getElementById("numero").value += char
+						break
+
+					default:
+						document.getElementById("letra").value += char
+
+				}
+
+
+			}
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Date Functions More</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<script type="text/javascript">
+		
+			var date = new Date()
+
+			/*
+			//Add or Remove Days
+
+			document.write(date.toString())
+			date.setDate(date.getDate() + 1)
+			document.write("<hr>")
+			document.write(date.toString())
+
+			//Add or Remove Months
+			document.write("<hr>")
+			document.write(date.toString())
+			date.setMonth(date.getMonth() + 1)
+			document.write("<hr>")
+			document.write(date.toString())
+
+			//Add or Remove Year
+			document.write("<hr>")
+			document.write(date.toString())
+			date.setYear(date.getFullYear() + 1)
+			document.write("<hr>")
+			document.write(date.toString())
+			*/
+
+			//10/04/2020
+
+			var date1 = new Date(2020, 3, 10) // from 0 to 11
+			var date2 = new Date(2020, 4, 22)
+
+			document.write(date2.toString())
+			document.write("<hr>")
+			document.write(date1.toString())
+
+			//30/04/2020
+
+			//Convert to an possible cal format
+			document.write("<hr><br><br>")
+			document.write(date1.getTime())
+			document.write("<hr>")
+			document.write(date2.getTime())
+
+
+			document.write("<hr><br><br>")
+			document.write((date2.getTime() - date1.getTime())/86400000)
+
+		</script>
+
+	</body>
+</html>

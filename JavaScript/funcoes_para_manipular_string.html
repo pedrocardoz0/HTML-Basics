@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Function to manipulate Strings</title>
+	</head>
+	<body>
+
+		<script type="text/javascript">
+			
+			//length
+			var string = 'Pedro'
+			document.write(string.length + "<br>")
+
+			//Index
+			document.write(string.charAt(0) + "<br>")
+			document.write(string[4] + "<br>")
+
+			//Index Of --> First Occurance
+			var test = 'aaab aaab'
+			document.write(test.indexOf("b") + "<br>") // If the character doenst exist return -1
+
+			//Replace
+			var example = 'Faro'
+			document.write(example.replace('Fa', 'Ca') + "<br>")
+			document.write(example + "<br>")
+
+			//Substring
+			document.write(example.substr(1, 3) + "<br>")
+
+			//Upper and lower
+			document.write(example.toLowerCase() + "<br>")
+			document.write(example.toUpperCase() + "<br>")
+
+			//Trim
+			var spaces = ' -Pedro   Cardozo-  '
+			document.write(spaces.trim() + "<br>")
+		</script>
+
+	</body>
+</html>

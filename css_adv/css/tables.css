@@ -1,0 +1,30 @@
+body{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+table{
+	width: 600px;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 4px;
+	text-align: left;
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	font-size: 90%;
+	letter-spacing: 0.1em;/*!!!!*/
+}
+
+tr:hover{
+	background: #c3e6e5;
+	font-weight: bold;
+}
+
+.number{
+	text-align: right;
+}

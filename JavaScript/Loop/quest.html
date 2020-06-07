@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Questions</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h2>
+        Question
+    </h2>
+
+    <script type="text/javascript">
+
+        var arrayQ = new Array("One", "Two", "Three", "Four", "Five")
+
+        /*
+        for(var x in arrayQ) {
+            console.log(arrayQ[x])
+        }
+        */
+
+        for(var x = 0; x < arrayQ.length; x++) {
+            console.log(arrayQ[x] + " !!!")
+        }
+
+
+        var y = 0
+        var z = 0
+
+        while(y < 10){
+            y++
+            while(z < 10){
+                z++
+                document.write(y + " x " + z + " = " + (y * z) + "<br>")
+            }
+            z = 0
+            document.write("<br><br><hr>")
+        }
+
+    </script>
+
+</body>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timing Window</title>
+        <meta charset="UTF-8">
+        
+        <style rel="stylesheet" type="text/css">
+            .style {
+                background-color: #CCC;
+            }
+
+            .style2 {
+                background-color: red;
+            }
+
+            .style3 {
+                background-color: green;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="style" id="box">
+            a
+            <script type="text/javascript">
+            
+                var i = 0
+                /* It just run one time
+                setTimeout(function(){
+                    console.log('One')
+                }, 1000) 
+                */
+                /* Will execute with a certain frequancy*/
+                var objInt = setInterval(function(){
+                    //document.write(i + "<br>")
+                    document.getElementById("box").className = "style2"
+                    i++
+                    document.getElementById("box").innerHTML = "Hello"
+
+                    if(i%2 != 0) {
+                        document.getElementById("box").className = "style3"
+                        document.getElementById("box").innerHTML = "Hi"
+
+                    }
+
+                    if( i == 10){
+                        clearInterval(objInt) /*It stops the loop of the interval, remember to passa the element object*/
+                    }
+                }, 1000)
+            </script>
+        </div>
+
+    </body>
+</html>

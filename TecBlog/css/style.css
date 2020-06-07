@@ -1,0 +1,154 @@
+/*Head Style*/
+.head{
+	background: #ffc300;
+	padding: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+/*News*/
+
+.news{
+	background: #FFFFFF;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.title_news{
+	font-size: 32px;
+	color: #ffc300;
+	font-family: Arial;
+}
+
+.image_news{
+	width: 470px;
+}
+
+.font_images{
+	padding: 0px;
+	margin: 0px;
+}
+
+.font_link{
+	background: #ffc300;
+	padding: 3px;
+}
+
+.prev_content{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+}
+
+
+/*Side Bar*/
+.test{
+	float: right;
+}
+
+.side{
+	padding: 1px 10px;
+	background: #FFF;
+	margin-left: 5px;
+}
+
+.title_side{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;	
+	background: #dedade;
+	color: #68686e;
+	padding: 5px;
+}
+
+.side_info{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+.link_side{
+	background: #ffc300;
+	font-size: 12px;
+	padding: 1px;
+}
+
+.selection{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #ffc300;
+	text-align: right;
+	list-style-type: none;
+}
+
+/*Dedicatory*/
+
+#dedication{
+	width: 500px;
+	background: gray;
+	text-align: center;
+	padding: 2px;
+	font-size: 18px;
+}
+
+#dedication_font{
+	font-family: Gill Sans, sans-seri;
+}
+
+/*TecBlog Logo*/
+
+#logo1{
+	color: #4e4954;
+}
+
+#logo2{
+	color: #FFF;
+	font-family: Arial;
+	font-size: 45px;
+	text-align: center;
+}
+
+#links_head{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*Main Container*/
+body{
+	background: #fcf8fc;
+	margin: 0px;
+}
+
+#main2{
+	padding-top: 15px;
+	position: absolute;
+  	left: 40%;
+  	margin-left: -60px;
+	display: inline-block;
+}
+
+#feed{
+	width: 500px;
+	float: left;
+
+}
+
+
+
+/*Links Format*/
+
+a{
+	text-decoration: none;
+	padding: 5px 10px;
+	font-family: "Andale Mono", Consolas, sans-serif;
+	font-weight: bold;
+}
+
+a:link, a:visited{
+	color: #FFF;
+	font-size: 19px;
+
+}
+
+a:hover{
+	color: #ffc300;
+	background: #FFF
+}

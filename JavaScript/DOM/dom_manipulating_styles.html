@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Input Manipulation</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<h3>Manipulating Styles</h3>
+
+		<button type="button" onclick="modifyStyle('#FF0000', '200px')">Red</button>
+		<button type="button" onclick="modifyStyle('#00FF00', '300px', '250px')">Green</button>
+		<button type="button" onclick="modifyStyle('#0000FF', '400px', '200px')">Blue</button>
+		<hr>
+
+		<div style="border: 1px solid #000; width: 100px; height: 100px" id="box">
+			
+		</div>
+		<script type="text/javascript">
+		
+			function modifyStyle(color, height_value, width_value) {
+				document.getElementById('box').style.backgroundColor = color
+				document.getElementById('box').style.height = height_value
+				document.getElementById('box').style.width = width_value
+
+			}
+		</script>
+	</body>
+</html>

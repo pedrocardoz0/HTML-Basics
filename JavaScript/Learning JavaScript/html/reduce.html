@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reduce</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            var array = [
+                {nome: 'João', nota: 7.3, bolsista: false},
+                {nome: 'Maria', nota: 9.2, bolsista: true},
+                {nome: 'Pedro', nota: 9.8, bolsista: true},
+                {nome: 'Ana', nota: 8.7, bolsista: true}
+            ]
+
+            const peopleBol1 = array.map((p) => p.bolsista == true ? p.nome : '')
+            
+            console.log('%cOs Bolsistas são:', 'color: red; font-size: 20px')
+            const peopleBol2 = array.reduce(function(soma, acumulattor){
+                if(acumulattor.bolsista == true) {
+                    console.log(`%c${acumulattor.nome}`, 'font-size: 18px;')
+                }
+            })
+
+            const result = array.reduce(function(soma, acumulattor){
+                return soma + acumulattor.bolsista
+            }, 0)
+
+            console.log('%cTodos são bolsistas ?', 'color: red; font-size: 20px')
+            if (result == 4){
+                console.log(true)
+            } else {
+                console.log(false)
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>BOM Window</title>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript">
+
+        var locatPage
+        function openWin() {
+            locatPage = window.open('https://www.nytimes.com/', 'fullscreen=yes')
+        }
+
+        function closeWin() {
+            locatPage.close()
+        }
+
+    </script>
+</head>
+<body>
+
+    <h2>BOM Window</h2>
+
+    <button onclick="openWin()">Open Window</button>
+    <button onclick="closeWin()">Close Window</button>
+    <button onclick="print()">Print Entire Screen</button>
+    
+    
+
+</body>
